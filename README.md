@@ -19,11 +19,11 @@ step 2:
   What exactly happens when you click the twitters search button? Well, I don't now what exactly happens, but I have observed that when I searched `"Berceste beyitler - 3"` (with quotes), the url of the page turned into `https://twitter.com/search?q=%22Berceste%20beyitler%20-%203%22&src=typed_query` and for `"Berceste beyitler - 4"` it was `https://twitter.com/search?q=%22Berceste%20beyitler%20-%204%22&src=typed_query` . As you realized, just one number changed in url, when I changed the number. So the search url for `Berceste beyitler - <number>` is `https://twitter.com/search?q=%22Berceste%20beyitler%20-%20<number>%22&src=typed_query` .  
   
 step 3:
-  This step is little complicated. First problem is you can't download file with javascript in browser console. At least I can't find any way to do that. So, I decided to just collect the url of images with javascript, and download them with `wget` in linux terminal.<p>   
-  <p>How to get a photo's url? It is simple. When you search `Berceste beyitler - 3` and right click the photo on first tweet and press inspect, you get the link on elemet's src attribute.<p>    
+  This step is little complicated. First problem is you can't download file with javascript in browser console. At least I can't find any way to do that. So, I decided to just collect the url of images with javascript, and download them with `wget` in linux terminal.
+  How to get a photo's url? It is simple. When you search `Berceste beyitler - 3` and right click the photo on first tweet and press inspect, you get the link on elemet's src attribute.    
   ![test](https://github.com/karaketir16/twitterImageBot/blob/master/markdown/inspect.png)
   But how to automatise it with javascript? Just right click the element then press copy and copy js path. Then paste it to console and, well done, you get the link with javascript. The long string always same when you searched something one twitter and get the first tweet's photo's path.  
-  <p>But there was a problem with this image. This image is small. Just delete part after `&name=` and write `4096x4096` . In these case `&name=small `will be `&name=4096x4096` . I think these number is not the exect resolution, just indicates the high resolution image. For now, we can keep these links on an string array.<p>  
+  But there was a problem with this image. This image is small. Just delete part after `&name=` and write `4096x4096` . In these case `&name=small `will be `&name=4096x4096` . I think these number is not the exect resolution, just indicates the high resolution image. For now, we can keep these links on an string array. 
 
 step 4:
   `y++` , I don't want to explain these.
