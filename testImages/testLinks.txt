@@ -1,0 +1,20 @@
+  GNU nano 4.2                                    links.txt                                               
+
+wget -O 2.jpg 'https://pbs.twimg.com/media/Cyavg6SWEAAUJSU?format=jpg'
+wget -O 3.jpg 'https://pbs.twimg.com/media/CyfpyjrXcAA4LRz?format=jpg'
+wget -O 4.jpg 'https://pbs.twimg.com/media/CylBNJDXUAA-zRG?format=jpg'
+wget -O 5.jpg 'https://pbs.twimg.com/media/Cyp70nzWQAAlvvn?format=jpg'
+wget -O 6.jpg 'https://pbs.twimg.com/media/CytLIM2WIAUADL5?format=jpg'
+wget -O 7.jpg 'https://pbs.twimg.com/media/Cy07vm1XUAQwq6B?format=jpg'
+wget -O 8.jpg 'https://pbs.twimg.com/media/Cy52FqHXUAA-oeJ?format=jpg'
+wget -O 9.jpg 'https://pbs.twimg.com/media/Cy8TNEFXEAAJSN1?format=jpg'
+wget -O 10.jpg 'https://pbs.twimg.com/media/CzBdV06XEAAPtTk?format=jpg'
+wget -O 11.jpg 'https://pbs.twimg.com/media/CzGpubnXgAAI1YI?format=jpg'
+wget -O 12.jpg 'https://pbs.twimg.com/media/CzLtJB5XgAExh-j?format=jpg'
+wget -O 13.jpg 'https://pbs.twimg.com/media/CzQ7nE5XcAE6sCD?format=jpg'
+wget -O 14.jpg 'https://pbs.twimg.com/media/CzWBJsuXgAAJhtO?format=jpg'
+wget -O 15.jpg 'https://pbs.twimg.com/media/CzbJdeGXAAA2IMZ?format=jpg'
+wget -O 16.jpg 'https://pbs.twimg.com/media/CzgUb-YWEAEqsna?format=jpg'
+wget -O 17.jpg 'https://pbs.twimg.com/media/CzlcsnUWEAEA13h?format=jpg'
+wget -O 18.jpg 'https://pbs.twimg.com/media/CzqmvSxXEAI5UZF?format=jpg'
+
