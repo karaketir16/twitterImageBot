@@ -20,7 +20,7 @@ step 2:
 
 step 3:
   This step is little complicated. First problem is you can't download file with javascript in browser console. At least I can't find any way to do that. So, I decided to just collect the url of images with javascript, and download them with `wget` in linux terminal. 
-  How to get a photo 
+  How to get a photo's url? It is simple. When you search `Berceste beyitler - 3` and right click the photo on first tweet and press inspect, you get the link on elemet's src attribute. But how to automatise it with javascript? Just right click the 
   
 I have wroten this code for downloads 
 ### Usage
